@@ -1,7 +1,7 @@
 WSPCStatus.chart = (function () {
-    var CHART_IMG = 'images/chart.gif', //снимка за фон на графиката
-        W_CHART = 265, //широчина на графиката
-        H_CHART = 165, //височина на графиката
+    var CHART_IMG = 'images/chart.gif', //Background picture for the chart
+        W_CHART = 265, //Width of the chart
+        H_CHART = 165, //Height of the chart
         X_CHART_OFFSET = 30,
         Y_CHART_OFFSET = 30,
         
@@ -10,14 +10,14 @@ WSPCStatus.chart = (function () {
         X_START = X_CHART_OFFSET + 4,
         Y_START = H_CHART + Y_CHART_OFFSET - 2,
         
-        METRICS_COUNT = 5, //Брой стойности по y
-        METRICS_OFFSET = 31, //Разстояние между стойностите по y
+        METRICS_COUNT = 5, //Number of values on y axis
+        METRICS_OFFSET = 31, //Offfset between the values on y axis in pixels
         
-        BARS_COUNT = 10, //Брой барове
-        BARS_OFFSET = 10, //Разстояние между баровете
+        BARS_COUNT = 10, //Number of bars 
+        BARS_OFFSET = 10, //Offset between the bars
         BARS_START_X = 10,
         
-        BAR_WIDTH = 15, //Широчина на баровете
+        BAR_WIDTH = 15, //Bar width in pixels
         
         LABELS_OFFSET = -8,
         
