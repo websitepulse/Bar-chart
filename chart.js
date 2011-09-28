@@ -1,7 +1,7 @@
 WSPCStatus.chart = (function () {
-    var CHART_IMG = '/skin/chart.gif', //снимка за фон на графиката
-        W_CHART = 265,
-        H_CHART = 165,
+    var CHART_IMG = 'images/chart.gif', //снимка за фон на графиката
+        W_CHART = 265, //широчина на графиката
+        H_CHART = 165, //височина на графиката
         X_CHART_OFFSET = 30,
         Y_CHART_OFFSET = 30,
         
